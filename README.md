@@ -1,18 +1,19 @@
-# 🧠 Quiz_UoPeople
+# 🧠 QuizGameUoPeople
 
 ## 🧩 Overview
-This project is a **Java-based console quiz game** developed as part of a university assignment at the University of the People.  
-It presents users with a series of quiz questions, evaluates their answers, and displays a final score summary.  
-The program emphasizes essential programming concepts such as control structures, loops, conditional logic, and input validation.
+This project is a **Java console-based multiple-choice quiz game** developed as part of a University of the People programming assignment.  
+It presents **five A–D multiple-choice questions**, validates each user input, and calculates the final score as a percentage.  
+The code illustrates mastery of **conditional statements, loops, switch-case logic, and arithmetic operations**.
 
 ---
 
 ## ⚙️ Features
-- Display multiple quiz questions  
-- Accept and validate user input  
-- Provide instant feedback for correct/incorrect answers  
-- Keep track of the score during the session  
-- Display the final result at the end of the quiz  
+- Presents **5 questions** with 4 possible answers (A–D) each  
+- Validates input to accept only **A/B/C/D** (case-insensitive)  
+- Uses a **switch-case** to check correctness  
+- Provides immediate feedback (“Correct!” / “Incorrect.”)  
+- Calculates and displays the **final score and percentage**  
+- Demonstrates good coding style with clear structure and comments  
 
 ---
 
@@ -20,13 +21,23 @@ The program emphasizes essential programming concepts such as control structures
 
 | Concept | Description |
 |----------|-------------|
-| **Conditional Statements** | Used to check correctness of user answers and provide feedback |
-| **Loops** | Iterate through questions and handle repeated user input |
-| **Methods** | Modularize code for question handling and score calculation |
-| **Variables** | Store user responses and score count |
-| **Input Validation** | Ensures only valid answers are accepted to maintain program stability |
+| **Conditional Statements (`if`, `else if`)** | Validate input (A–D) and control quiz logic |
+| **Loops (`while`)** | Repeat input prompts until a valid answer is provided |
+| **Switch-case** | Evaluate each answer and determine correctness |
+| **Methods** | `askQuestion()` encapsulates question logic and returns correctness |
+| **Arithmetic Operations** | Compute total score and percentage |
+| **Input Handling** | `Scanner` class for user input and trimming whitespace |
+| **Encapsulation** | Separate logic into reusable methods for clarity |
+| **Defensive Programming** | Includes safeguards even for logically unreachable cases |
 
 ---
+
+## ▶️ How to Run
+
+1️⃣ Open a terminal in the project directory.  
+2️⃣ Compile:
+```bash
+javac QuizGameUoPeople.java
 
 ## ▶️ How to Run
 
@@ -43,26 +54,8 @@ java QuizGameUoPeople
 
 ```
 
-## Example Output
-```bash
-===== Welcome to the UoPeople Quiz Game =====
-Question 1: Which of the following is a programming language?
-A) Java
-B) HTML
-C) Excel
-Your answer: A
-✅ Correct!
-
-Question 2: What does OOP stand for?
-Your answer: Object Oriented Programming
-✅ Correct!
-
-Final Score: 2 / 2
-Thank you for playing!
-```
 
 ## 🏫 Educational Context
 
-
-This project was created as part of a Computer Science course at the University of the People to demonstrate understanding of Java fundamentals, user interaction, and logical flow control.
-It showcases practical application of loops, conditionals, and input handling through an interactive console-based quiz.
+This project was created as part of a Computer Science course at the University of the People to practice control flow, input validation, and arithmetic logic in Java.
+It emphasizes clean program structure, modular design, and user-friendly interaction through the console.
