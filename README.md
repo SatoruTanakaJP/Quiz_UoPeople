@@ -44,6 +44,7 @@ java QuizGameUoPeople
 ```
 
 ## Example Output
+```bash
 ===== Welcome to the UoPeople Quiz Game =====
 Question 1: Which of the following is a programming language?
 A) Java
@@ -58,6 +59,7 @@ Your answer: Object Oriented Programming
 
 Final Score: 2 / 2
 Thank you for playing!
+```
 
 ## 🏫 Educational Context
 
