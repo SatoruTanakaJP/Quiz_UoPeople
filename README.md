@@ -34,10 +34,14 @@ The program emphasizes essential programming concepts such as control structures
 2️⃣ Compile the program:  
 ```bash
 javac QuizGameUoPeople.java
+```
+
 
 3️⃣ Run the program:
-
+```bash
 java QuizGameUoPeople
+
+```
 
 ## Example Output
 ===== Welcome to the UoPeople Quiz Game =====
