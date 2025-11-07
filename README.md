@@ -32,12 +32,6 @@ The code illustrates mastery of **conditional statements, loops, switch-case log
 
 ---
 
-## ▶️ How to Run
-
-1️⃣ Open a terminal in the project directory.  
-2️⃣ Compile:
-```bash
-javac QuizGameUoPeople.java
 
 ## ▶️ How to Run
 
